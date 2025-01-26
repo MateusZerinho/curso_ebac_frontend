@@ -1,0 +1,26 @@
+@use 'source/config/variaveis';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: $bg-color;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: $max-width;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
